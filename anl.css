@@ -1,0 +1,30 @@
+.test-inline {
+  background: rgb(250, 124, 124);
+  display: inline;
+  /* line-height: 5em;  */
+  /* Not dependent on line height .  */
+}
+
+.test-block {
+  background: rgb(232, 255, 25);
+  display: block;
+}
+
+.test-inline-block {
+  background: rgb(7, 214, 35);
+  display: inline-block;
+  line-height: 5em;
+  /* Dependent on line height .  */
+}
+
+.color-red {
+  background: rgb(250, 124, 124);
+}
+
+.color-green {
+  background: rgb(7, 214, 35);
+}
+
+.hello {
+  height: 400px;
+}
